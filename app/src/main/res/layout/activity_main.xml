@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+   tools:context=".MainActivity"
+    android:background="#e4fff4">
+
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" kurs evra"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:id="@+id/editText"
+        android:layout_weight="1" />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/layout0"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="PLATA"
+            android:id="@+id/button"
+            android:layout_weight="1"
+            android:background="#dbff9d" />
+
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:id="@+id/textView8"
+            android:layout_weight="1" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="br  dana"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:id="@+id/editText2"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="br sati"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:id="@+id/editText3"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="Prekovremeni sati"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:background="#dbff9d" />
+
+
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:id="@+id/textView6"
+            android:layout_weight="1" />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="UKUPNO"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:background="#dbff9d" />
+
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:id="@+id/textView7"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
